@@ -1,7 +1,7 @@
 # learn-csharp
 I am learning csharp from different videos courses, books and websites
 
-poweshell
+``` poweshell
 dotnet --info
 dotnet --list-sdks
 dotnet --list-runtimes
@@ -34,4 +34,4 @@ dotnet workflow update
 dotnet new console
 
 dotnet run
-
+```

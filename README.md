@@ -1,6 +1,18 @@
 # learn-csharp
-This is the starter Repository for csharp 
-```powershell
+I am learning csharp from different videos courses, books and websites
+
+poweshell
+dotnet --info
+dotnet --list-sdks
+dotnet --list-runtimes
+dotnet --version
+
+dotnet new console --output HelloCS
+dotnet new console --use-program-main --output HelloEnvironment --dryrun-run
+
+dotnet sln add .\HelloCS\HelloCS.csproj
+dotnet sln add .\HelloEnvironment\HelloEnvironment.csproj
+
 dotnet
 
 dotnet --info
@@ -20,4 +32,6 @@ dotnet workload install
 dotnet workflow update
 
 dotnet new console
-```
+
+dotnet run
+
